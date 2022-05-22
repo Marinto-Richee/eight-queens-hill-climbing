@@ -198,11 +198,23 @@ plt.show()
 
 ## OUTPUT:
 
+![image](https://user-images.githubusercontent.com/65499285/169664538-156b7e72-7cca-42ef-965e-3bcf95d75d1c.png)
+
+![image](https://user-images.githubusercontent.com/65499285/169664555-b7480c8d-6ef8-4985-acd3-2f7734eb4162.png)
+
+![image](https://user-images.githubusercontent.com/65499285/169664552-fa4b1b74-a77c-489a-8ec3-a3e8094ecf5e.png)
+
+![image](https://user-images.githubusercontent.com/65499285/169664567-1904bb3e-1996-4f9f-9ea4-318c05d16f07.png)
+
+
 The larger the state space, the longer it take to complete the search.
 
 ## Time Complexity Plot
 #### Plot a graph for various value of N and time(seconds)
 
+![image](https://user-images.githubusercontent.com/65499285/169664571-a4224baf-11fa-4eee-b43e-06f687cf9b91.png)
+
 ## RESULT:
 
+Hence, a code to solve eight queens problem using the hill-climbing algorithm has been implemented.
 
