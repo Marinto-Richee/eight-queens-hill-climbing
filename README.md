@@ -204,7 +204,8 @@ plt.show()
 
 ![image](https://user-images.githubusercontent.com/65499285/169664552-fa4b1b74-a77c-489a-8ec3-a3e8094ecf5e.png)
 
-![image](https://user-images.githubusercontent.com/65499285/169664567-1904bb3e-1996-4f9f-9ea4-318c05d16f07.png)
+![image](https://user-images.githubusercontent.com/65499285/169678003-ea84791e-3f6e-4e80-888b-9104768825ab.png)
+
 
 
 The larger the state space, the longer it take to complete the search.
@@ -212,7 +213,8 @@ The larger the state space, the longer it take to complete the search.
 ## Time Complexity Plot
 #### Plot a graph for various value of N and time(seconds)
 
-![image](https://user-images.githubusercontent.com/65499285/169664571-a4224baf-11fa-4eee-b43e-06f687cf9b91.png)
+![image](https://user-images.githubusercontent.com/65499285/169678009-a6bfd25b-880b-44a3-b6cc-3427f02787c5.png)
+
 
 ## RESULT:
 
