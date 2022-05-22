@@ -169,16 +169,17 @@ plot_NQueens(list(sol1.state))
 print("The total time required for 20000 iterations is {0:.4f} seconds".format(end-start))
 
 
-iterations=[10,20,30,40,50,1000,2000,3000,4000,5000,10000]
+n_values=[2**x for x in range(3,7)]
 time_taken=[]
 num=1
-for each_i in iterations:
-    print("Type {0}:\tIterations:{1}".format(num,each_i))
+for each_i in n_values:
+    nq1=NQueensProblem(each_i)
+    print("Type {0}:\tN-value:{1}".format(num,each_i))
     n1 = Node(state=nq1.initial)
     num_conflicts = nq1.h(n1)
-    print("Initial Conflicts = {0}".format(num_conflicts))
+    print("Initial Conflicts = {0}\n".format(num_conflicts))
     start=time.time()
-    sol1=hill_climbing(nq1,iterations=each_i)
+    sol1=hill_climbing(nq1,iterations=100)
     end=time.time()
     print(sol1.state)
     num_conflicts = nq1.h(sol1)
@@ -186,12 +187,11 @@ for each_i in iterations:
     print("The total time required for 20000 iterations is {0:.4f} seconds\n\n".format(end-start))
     time_taken.append(end-start)
     num+=1
-
-
-plt.title("Number of Iterations VS Time taken")
-plt.xlabel("Iteration")
+    
+plt.title("N-Value VS Time taken")
+plt.xlabel("N-value")
 plt.ylabel("Time taken")
-plt.plot(iterations,time_taken)
+plt.plot(n_values,time_taken)
 plt.show()
 ```
 
