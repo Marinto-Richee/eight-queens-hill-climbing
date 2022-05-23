@@ -148,7 +148,7 @@ def hill_climbing(problem,iterations = 10000):
         if problem.h(neighbour)<=problem.h(current):
             current.state= neighbour.state
             if problem.goal_test(current.state)==True:
-                print('The Goal state is reached at {0}'.format(i))
+                print('The Goal state is reached at iteration {0}'.format(i))
                 return current 
                 
         i += 1        
@@ -166,7 +166,7 @@ sol1.state
 num_conflicts = nq1.h(sol1)
 print("Final Conflicts = {0}".format(num_conflicts))
 plot_NQueens(list(sol1.state))
-print("The total time required for 20000 iterations is {0:.4f} seconds".format(end-start))
+print("The total time required is {0:.4f} seconds".format(end-start))
 
 
 n_values=[2**x for x in range(3,7)]
@@ -184,7 +184,7 @@ for each_i in n_values:
     print(sol1.state)
     num_conflicts = nq1.h(sol1)
     print("Final Conflicts = {0}".format(num_conflicts))
-    print("The total time required for 20000 iterations is {0:.4f} seconds\n\n".format(end-start))
+    print("The total time required is {0:.4f} seconds\n\n".format(end-start))
     time_taken.append(end-start)
     num+=1
     
