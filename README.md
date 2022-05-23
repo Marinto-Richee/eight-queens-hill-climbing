@@ -198,14 +198,19 @@ plt.show()
 
 ## OUTPUT:
 
-![image](https://user-images.githubusercontent.com/65499285/169664538-156b7e72-7cca-42ef-965e-3bcf95d75d1c.png)
+![1](https://user-images.githubusercontent.com/65499285/169737520-02b0f2a4-4c33-4a99-80a7-26a5bad8625b.jpg)
 
-![image](https://user-images.githubusercontent.com/65499285/169664555-b7480c8d-6ef8-4985-acd3-2f7734eb4162.png)
+![2](https://user-images.githubusercontent.com/65499285/169737534-cbee1b33-7ff5-4f44-8ca4-add744fe061a.jpg)
 
-![image](https://user-images.githubusercontent.com/65499285/169664552-fa4b1b74-a77c-489a-8ec3-a3e8094ecf5e.png)
+![3](https://user-images.githubusercontent.com/65499285/169737532-4f200c1f-d98c-4d2d-a2b5-5568bb046139.jpg)
 
-![image](https://user-images.githubusercontent.com/65499285/169678003-ea84791e-3f6e-4e80-888b-9104768825ab.png)
+![4](https://user-images.githubusercontent.com/65499285/169737529-cf0c3b2a-1272-43ba-a86e-2fd8cf424e39.jpg)
 
+![5](https://user-images.githubusercontent.com/65499285/169737528-2aea89c8-fd3c-448d-973c-12db1c734711.jpg)
+
+![6](https://user-images.githubusercontent.com/65499285/169737526-1143981a-ec29-45ef-b43a-392e49b3534e.jpg)
+
+![7](https://user-images.githubusercontent.com/65499285/169737782-893051ab-eca2-4fb8-9161-b07d82b823df.jpg)
 
 
 The larger the state space, the longer it take to complete the search.
