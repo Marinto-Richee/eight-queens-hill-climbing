@@ -22,6 +22,12 @@ Display the necessary states and the time taken.
 
 
 ## PROGRAM
+```
+/*
+Name: Marinto Richee J
+Reg. No: 212220230031
+*/
+```
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
