@@ -6,7 +6,7 @@ To develop a code to solve eight queens problem using the hill-climbing algorith
 ## THEORY
 To implement Hill Climbing Algorithm for 8 queens problem
 
-## DESIGN STEPS:
+## DESIGN STEPS
  
 ### STEP 1:
 Import the necessary libraries
